@@ -1,0 +1,231 @@
+*
+    {
+        margin:0;
+        padding:0; /*removing margins from the entire page*/
+    }
+
+    a{
+        color: black;/*font color*/
+        font-size: large;/*font size*/
+        font-weight: bold;
+      
+        font-family:bahnschrift; /* custom font*/
+        margin-left:20px;
+        font-size:16px;
+    }
+    .b{
+        color: white;
+        font-size:50px;
+        font-family: bahnschrift;
+    }
+    li{
+        font-weight:15px;
+        font-family: bahnschrift;
+        color: white;
+        list-style-type: none;
+    }
+    .nav li{
+        /* displays the button of the navigation bar horizontally*/
+        display: inline-block;
+
+    }
+     /* removes text decroation from the buttons of the navigation bar*/
+    li a{
+      
+        text-decoration: none;
+        margin-left: 80px;
+    }
+
+    .current{
+        /*  higlights the current page in the navigation bar*/
+        font-family: bahnschrift;
+        color:white;
+        background-color:black;
+        border-radius:10px;
+        font-size:16px;
+        width: auto;
+        height: auto;
+        padding: 10px;
+
+        display: inline-block;/*other classes can be displayed within the same line*/
+        cursor:pointer;
+      
+    }
+    button{
+        font-family: bahnschrift;
+        font-weight: 15px;
+        padding:20px;
+        background-color: white;
+        color:black;
+    }
+    a:hover{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0.5px 0.5px 0.5px black;
+        transition: 0.6s; /* hover animation duration*/
+    }
+    
+    .nav{
+        /* decorates the navigation bar for the entire website*/
+        display: flex; 
+        margin-right: 30px;
+        font-size:12px;
+        align-items: center;
+        justify-content: space-between;
+        background-color: whitesmoke;
+        width: 100%;
+        height: 90px;
+        position: fixed; /*Stays fixed to the top of the page even when you scroll down*/
+        top: 0;
+    }
+    
+    .div{
+        align-items: center;
+    }
+
+    
+    .pic1{ /*dimensions of an image*/
+        display: inline-flex;
+        float: right;
+        width: 500px;
+        height:1000px
+       
+    }
+    .pic2{/*dimensions of an image*/
+        display: inline-flex;
+        float: left;
+        width: 500px;
+        height:1000px
+
+    }
+    .mainIMG{/*dimensions of an image*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1500px;
+        height: 750px;
+    }
+    .text1{
+        color:white;
+        font-size:100px;
+        font-family:poppins;
+        font-weight: bolder;
+    }
+    
+   
+    .text2{
+        font-family: Poppins;
+        font-size: larger;
+    }
+
+    h1{
+        color:white;
+        font-size:50px;
+        font-family:NEOTERIC;
+        font-weight: bolder;
+        display: block;
+    }
+    h2{
+        color:white;
+        font: size 20px;
+        font-family: NEOTERIC;
+        margin-left: 700px;
+        margin-right: 700px;
+        display: flex;
+    
+    } 
+
+    /*  products page css*/
+
+    .sliderimg img{/*dimensions of the slider image*/
+        height: 900px;
+        width: 1900px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        overflow: hidden;
+        
+    }
+    .headers{
+        color:white;
+        font-size:90px;
+        font-family:bahnschrift;
+        font-weight: bolder;
+    }
+    .products{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .products img{
+        width: 600px;
+        height:600px;
+        display:inline-block;
+        align-items: center;
+        
+    }
+    .price{
+        /* for prices */
+        font-family: bahnschrift;
+        font-size: 30px;
+        color: grey;
+        text-decoration: line-through;
+    }
+    .newprice{
+        /* for discounted price*/
+        font-family: bahnschrift;
+        font-size: 45px;
+        color: #00FF00;
+
+    }
+    /* about us page css */
+    .card{
+        width:1250px;
+        height:500px;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: inline-flex;
+        align-items: center;
+       
+    }
+    p{
+        font-family: bahnschrift;
+        font-size: 25px;
+        color:white;
+       
+     
+        
+    }
+    .feedback
+    {
+        /* for decorating feedback form*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: bahnschrift;
+        font-size: 38px;
+     
+        color: white;
+        margin: auto;
+        padding: 40px; 
+        border-radius: 30px; 
+        width: 80%;
+        max-width: auto;
+    }
+   
+   
+    body{
+        align-items: center;
+        background-color:black;
+    }
+    footer{
+        /* for decorating footer of each webpage */
+        font-family: bahnschrift;
+        font-size: 20px;
+        color:white;
+    }
